@@ -69,7 +69,8 @@ void Qt_libusb::listview_populate_usb_devices()
         device_count = libusb_get_device_list(ctx, &device_list);
 
         //inform error on status bar
-        if(device_count <= 0) ui->statusBar->showMessage("Info: No device found");
+        if(device_count <= 0)
+            ui->statusBar->showMessage("Info: No device found");
 
         else
         {

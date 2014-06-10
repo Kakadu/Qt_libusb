@@ -1,0 +1,5 @@
+Makefile
+moc*
+Qt_libusb
+ui_qt_libusb.h
+

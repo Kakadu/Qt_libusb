@@ -1,7 +1,7 @@
 #ifndef QT_LIBUSB_H
 #define QT_LIBUSB_H
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 
 namespace Ui {
 class Qt_libusb;
